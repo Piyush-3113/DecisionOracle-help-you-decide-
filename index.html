@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>decision-oracle</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Autour+One&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Let Fate Decide</h1>
+      <p class="subtitle">Stop overthinking. Trust the Universe.</p>
+
+      <div class="result">?</div>
+
+      <button id="decideBtn">Reveal My Answer</button>
+
+      <p class="hint">Press Enter for instant decision.</p>
+
+      <div class="stats">
+        <p class="Tyes">
+          Yes <br />
+          <span id="yesCount">0</span>
+        </p>
+        <p class="Tt">Total <br /><span id="totalCount">0</span></p>
+        <p class="Tno">No <br /><span id="noCount">0</span></p>
+      </div>
+
+      <button id="toggleBtn" class="mini-btn">✎</button>
+
+      <div class="input-wrapper" id="inputWrapper">
+        <textarea
+          id="userInput"
+          rows="3"
+          placeholder="Write what you want to decide..."
+        ></textarea>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
