@@ -11,7 +11,8 @@ A minimal decision-making web page that helps users stop overthinking and get in
 - Keyboard shortcut support (Enter)
 
 ## 📸 Screenshots
-- HTML<img width="960" height="544" alt="Screenshot-1" src="https://github.com/user-attachments/assets/3e87e69b-ee7e-45c3-9697-0c3e6f7eaa01" />
+-![collage](https://github.com/user-attachments/assets/23e93536-c8ce-4f1f-85d0-c4dfccb2cbbe)
+
 
 ## 🛠 Tech Stack
 - HTML
